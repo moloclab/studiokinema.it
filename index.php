@@ -3,12 +3,12 @@
     // Dati aziendali
     $azienda = "Edoardo Tallone, psicologo.";
     $meta_description = "Edoardo Tallone, psicologo.";
-    $indirizzo = "Sede: Centallo, Via Ospedale 59 (CN)";
+    $indirizzo = "Via Ospedale, 59 - 12044 Centallo (CN)";
     $telefono = "333 919 4203";
     $email = "info@studiokinema.it";
 
     // Contenuti
-    $abstract = "Saremo presto online.";
+    $abstract = "Edoardo Tallone";
     $testo_piccolo = false;
 
     // Grafica
