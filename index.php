@@ -60,34 +60,23 @@
             border: 0;
             image-rendering: -webkit-optimize-contrast;
         }     
-        
-        <?php
-            if($testo_piccolo):
-        ?>
-
-        h1{
-            font-weight: 300;
-            font-size: 24px;
-            line-height: 28px;
-            letter-spacing: -1px;
-            margin: 25px 0;
-        }        
-
-        <?php
-            else:
-        ?>
 
         h1{
             font-weight: 300;
             font-size: 36px;
             line-height: 36px;
             letter-spacing: -2px;
-            margin: 30px 0;
-        }        
+            margin: 30px 0 5px 0;
+        } 
         
-        <?php
-            endif;
-        ?>        
+        h2{
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 22px;
+            letter-spacing: -1px;
+            margin: 0 0 30px 0;
+            color: <?= $colore_di_sfondo ?>;
+        }           
 
         a {
             color: <?= $colore_di_sfondo ?>;
@@ -148,10 +137,11 @@
                 <img src="<?= $path_logo ?>" alt="<?= $azienda ?>">
 
                 <h1><?= $abstract ?></h1>
+                <h2>Saremo presto online</h2>
 
                 <b>PER INFORMAZIONI:</b><br>
                 <?= $indirizzo ?><br>
-                Tel: <a href="tel:<?= $telefono ?>"><?= $telefono ?></a>
+                Tel: <a href="tel:3339194203"><?= $telefono ?></a>
                 <br><br>
                 <a class="btn" href="mailto:<?= $email ?>">SCRIVICI</a>
                 
